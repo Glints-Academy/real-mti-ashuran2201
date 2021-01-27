@@ -1,6 +1,14 @@
 const whoIsit = (firstDay, secondDay) => {
   // do code here
-
+  let tes = [];
+  firstDay.forEach((val, i) => {
+    secondDay.forEach((valx, ix) =>{
+      if(val === valx) {
+        tes.push(valx)
+      }
+    });
+  });
+  return tes
 }
 
 // do not change this code below
